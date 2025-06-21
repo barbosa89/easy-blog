@@ -1,12 +1,12 @@
 <?php
 
-namespace VendorName\Skeleton\Commands;
+namespace Barbosa\EasyBlog\Commands;
 
 use Illuminate\Console\Command;
 
-class SkeletonCommand extends Command
+class EasyBlogCommand extends Command
 {
-    public $signature = 'skeleton';
+    public $signature = 'easy-blog';
 
     public $description = 'My command';
 
