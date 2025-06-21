@@ -2,9 +2,9 @@
 
 namespace Barbosa\EasyBlog;
 
+use Barbosa\EasyBlog\Commands\EasyBlogCommand;
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
-use Barbosa\EasyBlog\Commands\EasyBlogCommand;
 
 class EasyBlogServiceProvider extends PackageServiceProvider
 {

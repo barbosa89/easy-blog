@@ -3,10 +3,10 @@
 declare(strict_types=1);
 
 use Barbosa\EasyBlog\Models\Post;
-use function Pest\Laravel\actingAs;
-
 use Barbosa\EasyBlog\Tests\Models\User;
 use Illuminate\Database\Eloquent\Collection;
+
+use function Pest\Laravel\actingAs;
 
 it('can access the posts index', function (): void {
     $user = User::factory()->create();

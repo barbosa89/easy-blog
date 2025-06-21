@@ -4,8 +4,8 @@ declare(strict_types=1);
 
 namespace Barbosa\EasyBlog\Tests\Models;
 
-use Illuminate\Foundation\Auth\User as BaseUser;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
+use Illuminate\Foundation\Auth\User as BaseUser;
 
 class User extends BaseUser
 {
